@@ -1,31 +1,41 @@
 # Car Price Predictor
 
-# Aim
+## Overview
+This project aims to predict the price of a used car using machine learning techniques. It takes into account parameters such as the car's company name, model name, year of purchase, and other relevant features.
 
-This project aims to predict the Price of an used Car by taking it's Company name, it's Model name, Year of Purchase, and other parameters.
+## Features
+- Predicts the price of a used car based on input parameters.
+- Utilizes machine learning algorithms to train and predict.
+- Provides insights into the factors influencing car prices.
 
-## How to use?
+## Technologies Used
+- Python
+- Machine Learning Libraries (e.g., scikit-learn, TensorFlow)
+- Data Handling Libraries (e.g., pandas, numpy)
+- Version Control (Git, GitHub)
 
-1. Clone the repository
-2. Install the required packages.
+## Usage
+1. **Data Collection and Preparation**:
+   - Gather data including car company, model name, year of purchase, and relevant parameters.
+   - Clean and preprocess the data for machine learning.
 
-Some packages are:
- - numpy 
- - pandas 
- - scikit-learn
+2. **Training the Model**:
+   - Train a machine learning model using historical data.
+   - Implement algorithms suited for regression tasks.
 
-3. Run the "Quiker Analysis.ipynb" file
-# Description
+3. **Prediction**:
+   - Input parameters (car company, model name, year of purchase, etc.).
+   - Obtain predicted price of the used car.
 
-## What this project does?
+## How to Run
+1. Clone the repository:
+   ```
+   git clone https://github.com/Priyanshu-2811/Car_Price_Predictor.git
+   ```
+2. Run the predictor:
+   ```
+   jupyter Quickr Analysis.ipynb
+   ```
+---
 
-1. This project takes the parameters of an used car like: Company name, Model name, Year of Purchase, Fuel Type and Number of Kilometers it has been driven.
-2. It then predicts the possible price of the car. For example, the image below shows the predicted price of our Hyundai Grand i10. 
-
-2. The data was cleaned (it was super unclean :( ) and analysed.
-
-3. Then a Linear Regression model was built on top of it which had 0.92 R2_score.
-
-Link for notebook: https://github.com/rajtilakls2510/car_price_predictor/blob/master/Quikr%20Analysis.ipynb
-
-4. This project was given the form of an website built on Flask where we used the Linear Regression model to perform predictions.
+Feel free to customize this template further based on specific details of your project, such as adding more specific instructions, details about the machine learning models used, or any additional features.
