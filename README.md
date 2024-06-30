@@ -14,8 +14,7 @@ Some packages are:
  - pandas 
  - scikit-learn
 
-3. Run the "car_price_predictor.ipynb" file
-4. 
+3. Run the "Quiker Analysis.ipynb" file
 # Description
 
 ## What this project does?
